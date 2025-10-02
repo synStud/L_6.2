@@ -756,6 +756,7 @@ p {
   .hero__image-container {
     width: 734px;
     height: 400px;
+    background: transparent url(../images/hero-tablet.png) center/contain no-repeat;
   }
   .about-project {
     padding: 0 50px 5rem;
