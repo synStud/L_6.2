@@ -1203,7 +1203,7 @@ p {
   .location__hero__h-wrapper .location__hero__info {
     width: 125px;
     height: 89px !important;
-    padding: 1.1rem 1.3rem;
+    padding: 1.1rem 1rem;
     position: absolute;
     top: 100%;
     right: 0;
