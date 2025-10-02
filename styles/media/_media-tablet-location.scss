@@ -1,0 +1,59 @@
+@media (max-width: 1439px) {
+
+    // -------------------------------------------
+    // ------------- LOCATION-HERO ---------------
+    // -------------------------------------------
+    
+    .location__hero {
+        padding: 3.2rem 50px 4.6rem;
+
+        &__h-wrapper {
+
+            h1 {
+                font-size: 32px;
+                width: 484px;
+            }
+
+            h1::after {
+                width: 250px;
+            }
+
+            .location__hero__info {
+                width: 236px;
+                height: 159px !important;
+                padding: 2.4rem 3rem 2.25rem 2.7rem;
+                position: absolute;
+                top: 100%;
+                right: 0;
+            }
+        }
+
+        &__description {
+            padding-top: 3.6rem;
+        }
+
+        .location__hero__image-container {
+            background: transparent url(../images/hero-location-tablet.png) center / contain no-repeat;
+        }
+    }
+
+    // ------------------------------------------
+    // ------------- LOCATION-MAP ---------------
+    // ------------------------------------------
+
+    .location__map {
+        padding-bottom: 3.7rem;
+
+        &__header {
+            padding: 0 50px;
+
+            .span-title::after {
+                width: 562px;
+            }
+        }
+
+        &__wrapper {
+            height: 574px;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+@import 
+    'variables',
+    'globals';
+
+@import 
+    './blocks/header',
+    './blocks/footer',
+    './blocks/details',
+    './blocks/infrastructure',
+    './blocks/entrance',
+    './blocks/about-project',
+    './blocks/hero',
+    './blocks/layouts',
+    './blocks/location-map',
+    './blocks/hero-location',
+    './blocks/hero-layouts',
+    './blocks/under-construction';
+
+@import
+    'font-face',
+    './media/media-tablet-main',
+    './media/media-tablet-location',
+    './media/media-tablet-layouts',
+    './media/media-mobile-main',
+    './media/media-mobile-location',
+    './media/media-mobile-layouts';

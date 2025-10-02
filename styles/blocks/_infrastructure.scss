@@ -1,0 +1,108 @@
+.infrastructure {
+    padding-top: 6.25rem;
+
+    .infrastructure__container {
+        padding: 0 120px;
+
+        .infrastructure__h2-wrapper {
+            width: 43rem;
+
+            .span-title::after {
+                width: 473px;
+            }
+        }
+    }
+
+    .infrastructure__grid {
+        width: 100%;
+        min-width: max-content;
+        padding-top: 2.9rem;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 300px 290px 290px 290px;
+        grid-template-rows: 300px 320px;
+        grid-template-areas: 
+            "item-1 item-1 item-4 item-5"
+            "item-2 item-3 item-4 item-6";
+
+        &__item-1 {
+            grid-area: item-1;
+            justify-self: end;
+
+            &__description {
+                background: transparent url(../images/infra-1.png) center / contain no-repeat;
+                width: 600px;
+                height: 300px;
+
+                p {
+                    width: 400px;
+                }
+            }
+        }
+
+        &__item-2 {
+            grid-area: item-2;
+            place-self: start end;
+
+            &__description {
+                background: transparent url(../images/infra-2.png) center / contain no-repeat;
+                width: 290px;
+                height: 300px;
+            }
+        }
+
+        &__item-3 {
+            grid-area: item-3;
+            place-self: start end;
+
+            &__description {
+                background: transparent url(../images/infra-3.png) center / contain no-repeat;
+                width: 290px;
+                height: 300px;
+            }
+        }
+
+        &__item-4 {
+            grid-area: item-4;
+
+            &__description {
+                background: transparent url(../images/infra-4.png) center / contain no-repeat;
+                width: 290px;
+                height: 620px;
+
+                p {
+                    padding: 2.1rem 1.3rem !important;
+                }
+            }
+        }
+
+        &__item-5 {
+            grid-area: item-5;
+
+            &__description {
+                background: transparent url(../images/infra-5.png) center / contain no-repeat;
+                width: 290px;
+                height: 300px;
+            }
+        }
+
+        &__item-6 {
+            grid-area: item-6;
+
+            &__description {
+                background: transparent url(../images/infra-6.png) center / contain no-repeat;
+                width: 290px;
+                height: 300px;
+            }
+        }
+
+        &__item__description {
+            display: flex;
+            align-items: end;
+
+            p {
+                padding: 1.9rem 1.3rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.location__hero__h-wrapper {
+
+    h1 {
+        font-size: 52px;
+    }
+
+    h1::after {
+        width: 422px;
+    }
+}
+
+.location__hero__info {
+    height: 208px !important;
+}
+
+.location__hero__image-container {
+    background: transparent url(../images/hero-location.png) center / contain no-repeat;
+}
+
+.location__hero__description {
+    padding-top: 6.25rem;
+    width: 41rem;
+}

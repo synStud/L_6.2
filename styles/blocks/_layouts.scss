@@ -1,0 +1,60 @@
+.layouts__wrapper {
+    padding: 0 120px 8.7rem;
+
+    .layouts__container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 35px 30px;
+
+        .layout {
+            height: 610px;
+            position: relative;
+
+            &__img {
+                width: 380px;
+                height: 341px;
+            }
+
+            h4 {
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 150%;
+                text-transform: uppercase;
+                color: var(--grayscale-black);
+                padding: 2rem 0 0.7rem;
+            }
+
+            p {
+                line-height: 120%;
+                padding-right: 3rem;
+            }
+
+            .a-button {
+                width: 187px;
+                position: absolute;
+                bottom: 0;
+            }
+
+            &-1__img {
+                background: transparent url(../images/layout-1.png) center / cover no-repeat;
+            }
+
+            &-2__img {
+                background: transparent url(../images/layout-2.png) center / cover no-repeat;
+            }
+
+            &-3__img {
+                background: transparent url(../images/layout-3.png) center / cover no-repeat;
+            }
+
+            &-4__img {
+                background: transparent url(../images/layout-4.png) center / cover no-repeat;
+            }
+
+            &-5__img {
+                background: transparent url(../images/layout-5.png) center / cover no-repeat;
+            }
+        }
+    }
+}

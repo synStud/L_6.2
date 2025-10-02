@@ -1,0 +1,53 @@
+.under-construction__wrapper {
+    padding: 6rem 120px;
+
+    .under-construction {
+        background: transparent url(../images/raz.jpg) center / contain no-repeat;
+        width: 100%;
+        height: 60vh;
+    }
+
+    .get-back {
+        text-align: center;
+
+        p {
+            font-size: 3rem;
+            font-weight: 500;
+            color: var(--grayscale-30);
+        }
+        
+    }
+}
+
+@media (max-width: 1439px) {
+    .under-construction__wrapper {
+
+        .under-construction {
+            height: 45vh;
+        }
+
+        .get-back {
+
+            p {
+                font-size: 2.3rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 833px) {
+    .under-construction__wrapper {
+        padding: 1.5rem 15px;
+
+        .under-construction {
+            height: 30vh;
+        }
+
+        .get-back {
+
+            p {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}

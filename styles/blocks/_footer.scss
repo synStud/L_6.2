@@ -1,0 +1,90 @@
+.footer__container {
+    height: 471px;
+    padding: 40px 120px;
+    background-color: var(--primary-blue-100);
+    color: var(--grayscale-white);
+    position: relative;
+
+    .footer__form-container {
+        display: flex;
+
+        .form__h3-wrapper {
+            width: 576px;
+            height: 190px;
+
+            h3 {
+                font-weight: 600;
+                font-size: 32px;
+                line-height: 120%;
+            }
+        }
+
+        .form__wrapper {
+            padding-left: 120px;
+
+            form {
+                display: flex;
+                flex-direction: column;
+            }
+
+            input {
+                border: 1px solid var(--grayscale-white);
+                width: 334px;
+                height: 50px;
+                background-color: transparent;
+                margin-bottom: 20px;
+                padding-left: 15px;
+                font-size: 16px;
+                line-height: 160%;
+                color: var(--grayscale-white);
+            }
+
+            input::placeholder {
+                color: inherit;
+            }
+
+            button {
+                padding: 14px 32px;
+                width: 244px;
+                height: 49px;
+                background-color: var(--grayscale-white);
+                border-radius: 0;
+                border: none;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 150%;
+                color: var(--grayscale-black);
+            }
+        }
+    }
+
+    .footer__contacts-container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 40px 120px;
+
+        .footer__logo {
+            width: 100%;
+            max-width: 576px;
+
+            .logo {
+                font-size: 32px;
+            }
+        }
+
+        .footer__tel-wrapper {
+            padding-left: 120px;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 150%;
+            min-width: max-content;
+            height: 48px;
+        }
+    }
+}

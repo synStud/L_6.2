@@ -1,0 +1,96 @@
+.advantages__item__description p {
+    font-size: 20px;
+}
+
+.about-project {
+    padding: 0 120px 6.25rem;
+
+    &__h-wrapper {
+        width: 42rem;
+
+        h2 {
+            text-decoration: underline;
+        }
+    }
+
+    &__description {
+        width: 41rem;
+        padding: 2.9rem 0 6rem;
+    }
+
+    &__advantages {
+        width: 1200px;
+        height: 460px;
+        background-color: var(--primary-blue-100);
+        padding: 3.5rem 4.25rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 1.5rem 7rem;
+
+        .advantages__item {
+            width: 470px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+
+            &__description {
+                width: 370px;
+                padding-left: 1.8rem;
+            }
+
+            &__img {
+                width: 100px;
+                height: 100px;
+            }
+
+            &-1__img {
+                background: transparent url(../images/about-1.png) center / contain no-repeat;
+            }
+
+            &-2__img {
+                background: transparent url(../images/about-2.png) center / contain no-repeat;
+            }
+
+            &-3__img {
+                background: transparent url(../images/about-3.png) center / contain no-repeat;
+            }
+
+            &-4__img {
+                background: transparent url(../images/about-4.png) center / contain no-repeat;
+            }
+
+            &-5__img {
+                background: transparent url(../images/about-5.png) center / contain no-repeat;
+            }
+
+            &-1__description {
+                width: 300px;
+            }
+
+            &-4__description, &-5__description {
+                width: 320px;
+            }
+        }
+    }
+
+    &__description-bottom {
+        padding: 5.3rem 0 0;
+        width: 100%;
+        display: flex;
+        justify-content: end;
+
+        &__wrapper {
+            width: 707px;
+
+            p {
+                width: 635px;
+                padding-bottom: 1rem;
+            }
+
+            .a-button {
+                padding: 14px 32px;
+            }
+        }
+    }
+}

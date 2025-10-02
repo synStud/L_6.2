@@ -1,0 +1,276 @@
+@media (max-width: 1439px) {
+
+    // -----------------------------------
+    // ------------- GLOBALS -------------
+    // -----------------------------------
+
+    .flow-size {
+        max-width: 834px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    // ----------------------------------
+    // ------------- HEADER -------------
+    // ----------------------------------
+
+    .header__wrapper {
+        padding: 3rem 50px 0;
+
+        .header__logo {
+            width: max-content;
+            height: 34px;
+        }
+
+        .header__nav-n-tel {
+
+            .header__nav {
+
+                ul {
+                    font-size: 14px;
+                    width: 244px;
+
+                    li:first-child {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .tel .a-button {
+        padding: 12px 0;
+        width: 166px;
+        height: 45px;
+    }
+
+    // ----------------------------------
+    // ------------- HERO ---------------
+    // ----------------------------------
+
+    .hero {
+        padding: 3.2rem 50px 3.75rem;
+
+        &__h-wrapper {
+            width: 734px;
+            padding-bottom: 0;
+
+            h1 {
+                font-size: 40px;
+                width: 420px;
+                padding-bottom: 2.6rem;
+            }
+
+            h1::after {
+                width: 335px;
+            }
+
+            .hero__info {
+                width: 734px;
+                height: 159px;
+                flex-direction: row;
+                position: static;
+                padding: 2.2rem 3.75rem;
+
+                &__item {
+                    text-align: center;
+
+                    span {
+                        font-size: 40px;
+                    }
+                }
+            }
+        }
+
+        &__image-container {
+            width: 734px;
+            height: 400px;
+        }
+    }
+
+    // -------------------------------------------
+    // ------------- ABOUT-PROJECT ---------------
+    // -------------------------------------------
+
+    .about-project {
+        padding: 0 50px 5rem;
+
+        &__h-wrapper h2 {
+            text-decoration: none;
+        }
+
+        &__description {
+            padding: 2.9rem 0 5rem;
+        }
+
+        &__advantages {
+            width: 734px;
+            height: 702px;
+            flex-wrap: nowrap;
+        }
+
+        &__description-bottom {
+            padding: 5rem 0 0;
+            justify-content: start;
+        }
+    }
+
+    // --------------------------------------
+    // ------------- ENTRANCE ---------------
+    // --------------------------------------
+
+    .entrance-image {
+        height: 436px;
+        background: transparent url(../images/entrance-tablet.png) center / contain no-repeat;
+    }
+
+    // --------------------------------------------
+    // ------------- INFRASTRUCTURE ---------------
+    // --------------------------------------------
+
+    .infrastructure {
+        padding-top: 3.75rem;
+
+        .infrastructure__container {
+            padding: 0 50px;
+        }
+
+        .infrastructure__grid {
+            gap: 10px 15px;
+            grid-template-columns: 354px 365px;
+            grid-template-rows: repeat(4, 1fr);
+            grid-template-areas: 
+                "item-1 item-1"
+                "item-2 item-3"
+                "item-4 item-5"
+                "item-4 item-6";
+
+            &__item-1 {
+                
+                &__description {
+                    background: transparent url(../images/infra-tablet-1.png) center / contain no-repeat;
+                    width: 733px;
+                    height: 300px;
+
+                    p {
+                        width: 500px;
+                    }
+                }
+            }
+
+            &__item-2 {
+                
+                &__description {
+                    background: transparent url(../images/infra-tablet-2.png) center / contain no-repeat;
+                    width: 354px;
+                    height: 300px;
+                }
+            }
+
+            &__item-3 {
+                
+                &__description {
+                    background: transparent url(../images/infra-tablet-3.png) center / contain no-repeat;
+                    width: 365px;
+                    height: 300px;
+                }
+            }
+
+            &__item-4 {
+                
+                &__description {
+                    background: transparent url(../images/infra-tablet-4.png) center / contain no-repeat;
+                    width: 354px;
+                    height: 610px;
+                }
+            }
+
+            &__item-5 {
+                
+                &__description {
+                    background: transparent url(../images/infra-tablet-5.png) center / contain no-repeat;
+                    width: 365px;
+                    height: 300px;
+                }
+            }
+
+            &__item-6 {
+                
+                &__description {
+                    background: transparent url(../images/infra-tablet-6.png) center / contain no-repeat;
+                    width: 365px;
+                    height: 300px;
+                }
+            }
+
+            &__item__description {
+                
+                p {
+                    padding: 0 6rem 1.9rem 1.3rem !important;
+                }
+            }
+        }
+    }
+
+    // -------------------------------------
+    // ------------- DETAILS ---------------
+    // -------------------------------------
+
+    .details__wrapper {
+        padding: 3.75rem 50px 16.6rem;
+
+        .details {
+            padding: 0;
+
+            &__h2-wrapper {
+                width: 550px;
+
+                h2 {
+                    padding: 0;
+                }
+            }
+
+            &__section {
+                padding: 2.9rem 0 1.7rem;
+                width: 680px;
+
+                .details__list {
+                    padding: 0 0 0 1.7rem;
+                }
+
+                .details__img {
+                    width: 113px;
+                    height: 113px;
+                }
+            }
+        }
+    }
+
+    // ------------------------------------
+    // ------------- FOOTER ---------------
+    // ------------------------------------
+
+    .footer__container {
+        height: 724px;
+        padding: 7.6rem 4.4rem;
+
+        .footer__form-container {
+            flex-direction: column;
+
+            .form__wrapper {
+                padding: 1.25rem 0;
+            }
+        }
+
+        .footer__contacts-container {
+            padding: 0 4.8rem 4rem 3.6rem;
+            justify-content: space-between;
+
+            .footer__tel-wrapper {
+                padding-left: 0;
+            }
+        }
+    }
+}

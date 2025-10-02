@@ -1,0 +1,69 @@
+@media (max-width: 1439px) {
+
+    // ------------------------------------------
+    // ------------- LAYOUTS-HERO ---------------
+    // ------------------------------------------
+    
+    .layouts__hero {
+        padding: 3.2rem 50px 2.1rem;
+
+        &__h-wrapper {
+
+            h1 {
+                font-size: 32px;
+                width: 484px;
+            }
+
+            h1::after {
+                width: 293px;
+            }
+
+            .layouts__hero__info {
+                width: 236px;
+                height: 159px !important;
+                padding: 2.2rem 0.8rem 2.1rem 1.7rem;
+                position: absolute;
+                top: 100%;
+                right: 0;
+            }
+        }
+
+        &__description {
+            padding-top: 3.9rem;
+        }
+
+        .layouts__hero__image-container {
+            background: transparent url(../images/hero-layouts-tablet.png) center / contain no-repeat;
+        }
+    }
+
+    // -------------------------------------
+    // ------------- LAYOUTS ---------------
+    // -------------------------------------
+
+    .layouts__wrapper {
+        padding: 0 50px 10.8rem;
+
+        .span-title::after {
+            width: 473px;
+        }
+
+        .layouts__container {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            gap: 31px 33px;
+
+            .layout {
+
+                &__img {
+                    width: 350px;
+                    height: 314px;
+                }
+
+                h4 {
+                    padding: 3.6rem 0 0.7rem;
+                }
+            }
+        }
+    }
+}

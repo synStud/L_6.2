@@ -1,0 +1,27 @@
+.layouts__hero {
+    padding: 6rem 120px 4.4rem;
+}
+
+.layouts__hero__h-wrapper {
+
+    h1 {
+        font-size: 52px;
+    }
+
+    h1::after {
+        width: 492px;
+    }
+}
+
+.layouts__hero__info {
+    height: 208px !important;
+}
+
+.layouts__hero__image-container {
+    background: transparent url(../images/hero-layouts.png) center / contain no-repeat;
+}
+
+.layouts__hero__description {
+    padding-top: 6.25rem;
+    width: 40rem;
+}
